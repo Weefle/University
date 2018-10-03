@@ -1,6 +1,6 @@
 package com.example.tp2;
 
-public class exo8 {
+public class exo3 {
 
     public static void main(String[] args){
         int i;

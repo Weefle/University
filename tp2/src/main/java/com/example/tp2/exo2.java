@@ -3,7 +3,7 @@ package com.example.tp2;
         import java.util.Scanner;
 /*on importe le scanner qui récupère les entrées clavier*/
 
-public class exo7 {
+public class exo2 {
 
     public static void main(String[] args) {
 
