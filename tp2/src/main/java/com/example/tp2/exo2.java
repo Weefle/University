@@ -29,7 +29,7 @@ public class exo2 {
             /*tant que op n'est pas égal à + ou - ou * ou / ou m*/
             switch (op) {/*boucle switch pour tester si plusieurs cas de valeurs entrées*/
                 case '+':
-                    /*on vérifie que op est bien égal à 1*/
+                    /*on vérifie que op est bien égal à +*/
 
                     resul = a + b;
                     System.out.println("Addition a+b = ");
@@ -37,7 +37,7 @@ public class exo2 {
                     /*on affiche le résultat de a+b*/
                     break;/*on termine le switch*/
                 case '-':
-                    /*on vérifie que op est bien égal à 1*/
+                    /*on vérifie que op est bien égal à -*/
 
                     resul = a - b;
                     System.out.println("Soustraction a-b = ");
@@ -45,7 +45,7 @@ public class exo2 {
                     /*on affiche le résultat de a-b*/
                     break;
                 case '*':
-                    /*on vérifie que op est bien égal à 3*/
+                    /*on vérifie que op est bien égal à **/
 
                     resul = a * b;
                     System.out.println("Multiplication a*b = ");
@@ -53,7 +53,7 @@ public class exo2 {
                     /*on affiche le résultat de a*b*/
                     break;
                 case '/':
-                    /*on vérifie que op est bien égal à 4*/
+                    /*on vérifie que op est bien égal à /*/
                     if (b == 0) {
                         System.out.println("Erreur : division par 0");
                         /*si b est égal à 0, on indique l'erreur*/
@@ -65,7 +65,7 @@ public class exo2 {
                     }
                     break;
                 case 'm':
-                    /*on vérifie que op est bien égal à 5*/
+                    /*on vérifie que op est bien égal à m*/
                     if (b == 0) {
                         System.out.println("Erreur : division par 0");
                         /*si b est égal à 0, on indique l'erreur*/
