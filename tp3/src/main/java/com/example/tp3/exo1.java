@@ -4,18 +4,23 @@ import java.util.Scanner;
 
 public class exo1 {
 
+    /*
+    les fonctions suivantes seront déclarées comme privées
+    car on n'aura pas besoin d'y accéder dans une autre classe
+     */
+
     /*declaration de la fonction carre*/
-    public static int carre(int x){
+    private static int carre(int x){
         return x*x;
         /*la fonction carre retourne un entier*/
     }
 
-    public static int cube(int x){
+    private static int cube(int x){
         return x*x*x;
         /*la fonction cube retourne un entier*/
     }
 
-    public static int premier(int x) {
+    private static int premier(int x) {
         int i, reste;
         /*on definit les variables pour cette fonction*/
         if (x == 1) {
