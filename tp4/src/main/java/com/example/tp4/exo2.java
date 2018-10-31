@@ -6,13 +6,13 @@ public class exo2 {
 
     // condition: il faut que d>0
     public static String decimal2hex(int d) {
-        String digits = "0123456789ABCDEF";
+        char[] digits = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
         if (d <= 0) return "0";
         int base = 16;   // flexible to change in any base under 16
         String hex = "";
         while (d > 0) {
             int digit = d % base;              // rightmost digit
-            hex = digits.charAt(digit) + hex;  // string concatenation
+            hex = digits[digit] + hex;  // string concatenation
             d = d / base;
         }
         return hex;
